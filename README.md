@@ -16,7 +16,7 @@ One notable feature of the eos6oli model is its utilization of a self-attention 
 * Output shape: Single (Predicted log of solubility of the compound)
 
 ## Repository Ogranization
-* '/notebooks' contains all colab notebooks used
+* '/notebooks' contains colab notebooks
 * '/data' contains all the datasets
 * '/data/input' contains all inputs
 * '/data/output' contains all outputs generated
