@@ -9,19 +9,19 @@ One notable feature of the eos6oli model is its utilization of a self-attention 
 
 
 ## Model Characteristics
-.  Input: Compound
-.  Input shape: Single
-.  Task: Regression
-.  Output: Experimental value
-.  Output shape: Single (Predicted log of solubility of the compound)
+* Input: Compound
+* Input shape:
+* SingleTask: Regression
+* Output: Experimental value
+* Output shape: Single (Predicted log of solubility of the compound)
 
 ## Repository Ogranization
-.  '/notebooks' contains all colab notebooks used
-.  '/data' contains all the datasets
-.  '/data/input' contains all inputs
-.  '/data/output' contains all outputs generated
-.  '/figues' contains all figues generated
-.  '/requirements.txt' contains all requirements
+* '/notebooks' contains all colab notebooks used
+* '/data' contains all the datasets
+* '/data/input' contains all inputs
+* '/data/output' contains all outputs generated
+* '/figues' contains all figues generated
+* '/requirements.txt' contains all requirements
 
 ## Task 1
 * After reviewing the available models, the decision was made to proceed with the eos6oli model.
