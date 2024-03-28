@@ -23,9 +23,6 @@ One notable feature of the eos6oli model is its utilization of a self-attention 
 * '/figues' contains all figues generated
 * '/requirements.txt' contains all requirements
   
-## Task Process 
-![image](https://github.com/enejepromise/Ersilia--SolTraNet)
-
 ## Ersilia environment setup
 
 Ubuntu 20.04 with Python 3.7
