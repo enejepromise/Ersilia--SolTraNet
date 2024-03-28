@@ -22,9 +22,45 @@ One notable feature of the eos6oli model is its utilization of a self-attention 
 * '/data/output' contains all outputs generated
 * '/figues' contains all figues generated
 * '/requirements.txt' contains all requirements
+  
+## Task Process 
+![image](https://github.com/enejepromise/Ersilia--SolTraNet)
+
+## Ersilia environment setup
+
+Ubuntu 20.04 with Python 3.7
+
+1. Install miniconda3
+2. Install GitHub CLI
+3. Install and activate Git LFS from Conda using:
+	- `conda install git-lfs -c conda-forge`
+	- `git-lfs install`
+4. Install Ersilia using:
+	- `conda create -n ersilia python=3.7`
+	- `conda activate ersilia`
+	- `python -m pip install isaura==0.1`
+	- `git clone https://github.com/ersilia-os/ersilia.git`
+	- `cd ersilia`
+	- `pip install -e .`
+5. Test the selected model to be sure it works.
+	- `ersilia -v fetch model_name`
+	- `ersilia serve model_name`
+	- `ersilia -v api run -i "CCCC"`
+
+## Steps
+
+- Select dataset of 1000 molecules from ChEMBL database and extract the SMILES.
+- Load this dataset into the model bias python notebook.
+- Convert the SMILES to standard SMILES using the function in src folder.
+- Use the RDKIT package to get the Inchikey representation of the molecules.
+- Export the file containing Inchikey and SMILES and save in a CSV file.
+- Select a model and run predictions via google colab on [here](https://github.com/ersilia-os/ersilia/blob/master/notebooks/ersilia-on-colab.ipynb).
+- Create a scatter plot of the predictions (probability) gotten from the step above to show the model bias.
+
+
 
 ## Task 1
-* After reviewing the available models, the decision was made to proceed with the eos6oli model.
+* After reviewing the available models, I choose to work with eos6oli model.
 * Subsequently, all necessary files were created and organized within the repository.
 * The eos6oli model was downloaded, fetched, and then served from the selected model.
 * Additionally, the molecules required for training and testing the model were downloaded.
