@@ -1,4 +1,4 @@
-# Model-eos6oli: Soltrannet-Aqueous-Solubility-Model
+# eos6oli-Model-Validation: Soltrannet-Aqueous-Solubility-Model
 
 ## eos6oli-Model-Validation
 This repository is a model validation for eos6oli.
